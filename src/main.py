@@ -9,4 +9,4 @@ print(formatted_date_time)
 with open('version.md', 'w') as file:
     file.write(f"Version created on: {formatted_date_time}\n")
 
-print (f"Current date and time written to version.md: {formatted_dat_time}")
+print ("Current date and time written to version.md:" , formatted_date_time)
